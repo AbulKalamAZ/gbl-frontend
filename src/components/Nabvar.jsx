@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HamburgerIcon from "../../public/icons/Hamburger.png";
+import HamburgerIcon from "../../public/icons/hamburger.png";
 import MailIcon from "../../public/icons/mail.png";
 import PhoneCallIcon from "../../public/icons/phone-call.png";
 
