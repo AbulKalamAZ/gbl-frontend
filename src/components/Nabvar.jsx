@@ -54,7 +54,7 @@ const Nabvar = () => {
             <li className="link-item cursor-pointer">REACH US</li>
           </ul>
 
-          <div className="flex lg:hidden gap-6">
+          <div className="flex lg:hidden gap-4">
             <div className="flex justify-start items-center gap-2">
               <Image src={MailIcon} alt="mail icon" className="w-4 h-4" />
               <span>
