@@ -15,13 +15,13 @@ const OtherBusiness = () => {
         Other Business Units
       </h2>
 
-      <div className="business-cards flex justify-evenly items-center gap-4 mb-4">
+      <div className="business-cards flex flex-col lg:flex-row justify-evenly items-center gap-4 mb-4">
         <BusinessCard bg={ManpowerImage} content="Manpower" />
         <BusinessCard bg={CateringImage} content="Camp & Catering" />
         <BusinessCard bg={EquipmentImage} content="Equipments" />
         <BusinessCard bg={VehicleImage} content="Vehicle Hiring" />
       </div>
-      <div className="business-cards flex justify-evenly items-center gap-4">
+      <div className="business-cards flex flex-col lg:flex-row justify-evenly items-center gap-4">
         <BusinessCard bg={FurnishedImage} content="Furnished Apartments" />
         <BusinessCard bg={TransportImage} content="Transportation Service" />
         <BusinessCard

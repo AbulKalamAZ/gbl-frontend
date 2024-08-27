@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
 
         {/* Right Column */}
-        <div className="w-full md:w-1/2 flex flex-wrap md:flex-nowrap justify-between">
+        <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-between">
           {/* Site Links Column 1 */}
           <div className="w-1/3 md:w-auto mb-4 md:mb-0 pt-12">
             <h5 className="h5 font-semibold mb-3 pb-3 border-primary border-b-2">

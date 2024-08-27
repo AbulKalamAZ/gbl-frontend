@@ -13,16 +13,16 @@ const SupportSection = () => {
 
       <div className="card-container">
         <div className="grid grid-cols-12 gap-8">
-          <div className="col-span-3">
+          <div className="col-span-12 lg:col-span-3">
             <ServiceCard bg={ElectricalBG} content="Electrical" />
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 lg:col-span-3">
             <ServiceCard bg={InstrumentBG} content="Instrumentation" />
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 lg:col-span-3">
             <ServiceCard bg={HSEBG} content="HSE" />
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 lg:col-span-3">
             <ServiceCard bg={WarehousingBG} content="WareHousing" />
           </div>
         </div>

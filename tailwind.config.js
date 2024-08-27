@@ -46,7 +46,8 @@ export const theme = {
       "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       "keyfact-img": "url('/key-fact.jpg')",
-      "machine": "url('/machine.png')" 
+      "machine": "url('/machine.png')",
+      "slider-one": "url('/slider/slider-img-1.jpg')",
     },
   },
 };

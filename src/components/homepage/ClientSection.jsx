@@ -37,15 +37,15 @@ const ClientSection = () => {
 
   return (
     <section className="pt-10">
-      <div className="relative overflow-hidden w-full h-[300px]">
-        <div className="flex justify-center items-center gap-12 marquee-background w-full h-full">
+      <div className="relative lg:overflow-hidden w-full h-[700px] lg:h-[300px]">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-12 marquee-background w-full h-full">
           <div className="section-title">
-            <h2 className="h2 font-extrabold text-white mb-4 max-w-[300px]">
+            <h2 className="h2 font-extrabold text-white text-center lg:text-left mb-4 max-w-[300px]">
               Clientele
             </h2>
             <PrimaryButton content="More Clients" />
           </div>
-          <div className="flex space-x-4">
+          <div className="flex justify-center flex-wrap lg:flex-nowrap gap-4">
             {images.map(({ id, image }) => (
               <div
                 key={id}

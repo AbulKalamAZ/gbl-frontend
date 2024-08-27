@@ -11,7 +11,7 @@ const AboutSection = () => {
   return (
     <section className="w-full">
       <div className="grid grid-cols-12 gap-8">
-        <div className="image-wrapper col-span-4 py-8">
+        <div className="image-wrapper col-span-12 md:col-span-4 order-2 lg:order-1 py-8">
           <Image
             src={IntroImg}
             alt="intro image"
@@ -19,7 +19,7 @@ const AboutSection = () => {
           />
         </div>
 
-        <div className="content-wrapper col-span-8 py-8">
+        <div className="content-wrapper col-span-12 md:col-span-8 order-1 lg:order-2 py-8">
           <SectionHeader content="GBL" />
 
           <h2 className="h2 font-extrabold mb-6">
@@ -53,13 +53,13 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="info-data-wrapper flex justify-start items-center gap-20 mb-8">
-            <div className="item flex justify-start items-start gap-6">
-              <div className="icon w-16 h-16">
+          <div className="info-data-wrapper flex flex-col md:flex-row justify-start items-start lg:items-center gap-20 mb-8">
+            <div className="item flex justify-center lg:justify-start items-start gap-6">
+              <div className="icon">
                 <Image
                   src={GrowthIcon}
                   alt="growth icon"
-                  className="w-16 h-16"
+                  className="w-16 md:w-8 h-16 md:h-8"
                 />
               </div>
               <div className="data">
@@ -69,12 +69,12 @@ const AboutSection = () => {
                 <span className="body-2">Years of Services</span>
               </div>
             </div>
-            <div className="item flex justify-start items-start gap-6">
-              <div className="icon w-16 h-16">
+            <div className="item flex justify-center lg:justify-start items-start gap-6">
+              <div className="icon">
                 <Image
                   src={EngineerIcon}
                   alt="growth icon"
-                  className="w-16 h-16"
+                  className="w-16 md:w-8 h-16 md:h-8"
                 />
               </div>
               <div className="data">
@@ -84,12 +84,12 @@ const AboutSection = () => {
                 <span className="body-2">Happy Clients</span>
               </div>
             </div>
-            <div className="item flex justify-start items-start gap-6">
-              <div className="icon w-16 h-16">
+            <div className="item flex justify-center lg:justify-start items-start gap-6">
+              <div className="icon">
                 <Image
                   src={ClipboardIcon}
                   alt="growth icon"
-                  className="w-16 h-16"
+                  className="w-16 md:w-8 h-16 md:h-8"
                 />
               </div>
               <div className="data">

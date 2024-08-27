@@ -14,11 +14,11 @@ const KeyFactSection = () => {
   ];
   return (
     <section className="relative pb-32">
-      <div className=" w-full h-screen flex">
-        <div className="w-1/2 h-full">
-          <div className="w-full h-full bg-keyfact-img bg-no-repeat bg-cover bg-center"></div>
+      <div className=" w-full h-screen flex flex-col lg:flex-row">
+        <div className="w-full lg:w-1/2 h-[400px] lg:h-full">
+          <div className="w-full h-[400px] lg:h-full bg-keyfact-img bg-no-repeat bg-cover bg-center"></div>
         </div>
-        <div className="w-1/2 h-full flex flex-col justify-center items-start pl-24">
+        <div className="w-full lg:w-1/2 h-full flex flex-col justify-center items-start py-5 lg:py-0 px-5 lg:pl-24">
           <SectionHeader content="Company Information" />
 
           <h2 className="h2 font-extrabold mb-8">Key Facts</h2>
@@ -36,7 +36,7 @@ const KeyFactSection = () => {
           <PrimaryButton content="Know More" />
         </div>
       </div>
-      <div className="absolute bottom-0 left-[400px] w-[600px] h-[450px] bg-machine"></div>
+      <div className="hidden lg:block absolute bottom-0 left-[400px] w-[600px] h-[450px] bg-machine"></div>
     </section>
   );
 };
