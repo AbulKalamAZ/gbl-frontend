@@ -6,17 +6,17 @@ import KeyFactSection from "@/components/homepage/KeyFactSection";
 import OtherBusiness from "@/components/homepage/OtherBusiness";
 import OurPolicy from "@/components/homepage/OurPolicy";
 import SupportSection from "@/components/homepage/SupportSection";
-import Nabvar from "@/components/Nabvar";
+import Navbar from "@/components/Navbar";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <Nabvar/ >
+      <Navbar />
 
       <HeroSlider />
-      <main className='w-full min-h-screen'>
+      <main className="w-full min-h-screen">
         <div className="container">
           <AboutSection />
 
@@ -32,11 +32,9 @@ export default function Home() {
           <ClientSection />
           <KeyFactSection />
         </div>
-
       </main>
 
       <Footer />
-
     </>
   );
 }
