@@ -3,7 +3,7 @@ import SectionHeader from "../SectionHeader";
 
 const KeyFactSection = () => {
   const facts = [
-    "Formerly known as Rehab Contracting Est",
+    "Formerly known as GBL Contracting Est",
     "Leader in the market since established in 2010s",
     "Head Quarters in Yanbu – Saudi Arabia",
     "7 Branches in KSA and Global presence in UAE &amp; Bahrain too",

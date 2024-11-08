@@ -3,7 +3,6 @@ import HamburgerIcon from "../../public/icons/hamburger.png";
 import MailIcon from "../../public/icons/mail.png";
 import PhoneCallIcon from "../../public/icons/phone-call.png";
 import Dropdown from "./Dropdown";
-import Link from "next/link";
 
 const navData = [
   {
@@ -146,7 +145,7 @@ const Nabvar = () => {
               </div>
               <div>
                 <p className="">Send Us Email</p>
-                <a href="mailto:info@rehabgroupksa.com" target="_blank">
+                <a href="mailto:info@gblgroupksa.com" target="_blank">
                   info@rehabgroupksa.com
                 </a>
               </div>

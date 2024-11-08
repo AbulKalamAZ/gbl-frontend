@@ -3,33 +3,27 @@ import SectionHeader from "@/components/SectionHeader";
 import InnerPageLayout from "@/layouts/InnerPageLayout";
 import Head from "next/head";
 
-export default function AdministrationPage() {
+export default function ElectricalPage() {
   // Dummy data for personnel and contact information
   const personnelData = [
-    { id: 1, title: "Government Relation Officer", imageSrc: "/admin/1.jpg" },
-    { id: 2, title: "Public Relations Officer", imageSrc: "/admin/2.jpg" },
-    { id: 3, title: "Admin Assistant", imageSrc: "/admin/3.jpg" },
-    { id: 4, title: "Admin Secretary", imageSrc: "/admin/4.jpg" },
-    { id: 5, title: "Office Assistant", imageSrc: "/admin/5.jpg" },
-    { id: 6, title: "Accountant", imageSrc: "/admin/6.jpg" },
-    { id: 7, title: "Accounts Assistant", imageSrc: "/admin/7.jpg" },
-    { id: 8, title: "Document Controller", imageSrc: "/admin/8.jpg" },
-    { id: 9, title: "Document Control Assistant", imageSrc: "/admin/9.jpg" },
-    { id: 10, title: "Document Clerk", imageSrc: "/admin/10.jpg" },
-    { id: 11, title: "Heavy Driver", imageSrc: "/admin/11.jpg" },
-    { id: 12, title: "Light Driver", imageSrc: "/admin/12.jpg" },
-    { id: 13, title: "Plumber", imageSrc: "/admin/13.jpg" },
-    { id: 14, title: "Office Boy", imageSrc: "/admin/14.jpg" },
-    { id: 15, title: "Tea Boy", imageSrc: "/admin/15.jpg" },
-    { id: 16, title: "Cleaner", imageSrc: "/admin/16.jpg" },
-    { id: 17, title: "General Helper", imageSrc: "/admin/17.jpg" },
-    { id: 18, title: "General Labor", imageSrc: "/admin/18.jpg" },
+    {
+      id: 1,
+      title: "Electrical QA/QC Inspector",
+      imageSrc: "/electrical/1.jpg",
+    },
+    { id: 2, title: "Electrical Engineer", imageSrc: "/electrical/2.jpg" },
+    { id: 3, title: "Electrical Supervisor", imageSrc: "/electrical/3.jpg" },
+    { id: 4, title: "Electrical Foreman", imageSrc: "/electrical/4.jpg" },
+    { id: 5, title: "Electrical Technician", imageSrc: "/electrical/5.jpg" },
+    { id: 6, title: "Electrician", imageSrc: "/electrical/6.jpg" },
+    { id: 7, title: "Cable Tray Fitters", imageSrc: "/electrical/7.jpg" },
+    { id: 8, title: "Electrical Helper", imageSrc: "/electrical/8.jpg" },
   ];
 
   return (
     <>
       <Head>
-        <title>GBL - Administration</title>
+        <title>GBL - Electrical</title>
         <meta
           name="description"
           content="Meet the administration team of GBL, an GBL vendor code registration holding company."
@@ -41,7 +35,7 @@ export default function AdministrationPage() {
         <SectionHeader
           content="GBL is an GBL vendor code registration holding Company, which
           has more than 500 employees under direct sponsorships. Please see the
-          Admin resources list as follows:"
+          Electrical Manpower resources list as follows:"
         />
 
         {/* Personnel Grid */}
@@ -77,6 +71,6 @@ export default function AdministrationPage() {
   );
 }
 
-AdministrationPage.getLayout = function getLayout(page) {
-  return <InnerPageLayout title="Administration">{page}</InnerPageLayout>;
+ElectricalPage.getLayout = function getLayout(page) {
+  return <InnerPageLayout title="Electrical">{page}</InnerPageLayout>;
 };
