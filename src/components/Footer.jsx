@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import FacebookIcon from "../../public/icons/facebook.png";
 import InstagramIcon from "../../public/icons/instagram.png";
 import LinkedinIcon from "../../public/icons/linkedin.png";
@@ -93,22 +94,22 @@ const Footer = () => {
             </h5>
             <ul className="space-y-2">
               <li>
-                <a href="index.html">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="whoweare.html">Who We Are</a>
+                <Link href="/whoweare">Who We Are</Link>
               </li>
               <li>
-                <a href="clientele.html">Clientele</a>
+                <Link href="/clientele">Clientele</Link>
               </li>
               <li>
-                <a href="projects.html">Projects</a>
+                <Link href="/projects">Projects</Link>
               </li>
               <li>
-                <a href="gbl.html">GBL Profile</a>
+                <Link href="/profile">GBL Profile</Link>
               </li>
               <li>
-                <a href="reachus.html">Reach Us</a>
+                <Link href="/reachus">Reach Us</Link>
               </li>
             </ul>
           </div>
@@ -120,20 +121,20 @@ const Footer = () => {
             </h5>
             <ul className="space-y-2">
               <li>
-                <a href="manpower.html">Manpower</a>
+                <Link href="/manpower">Manpower</Link>
               </li>
               <li>
-                <a href="otherbusinessunits.html">Other Business Units</a>
+                <Link href="/otherbusinessunits">Other Business Units</Link>
               </li>
 
               <li>
-                <a href="certificates.html">Certificates</a>
+                <Link href="/certificates">Certificates</Link>
               </li>
               <li>
-                <a href="keyfacts.html">Key Facts</a>
+                <Link href="/keyfacts">Key Facts</Link>
               </li>
               <li>
-                <a href="whoiswho.html">Who is Who</a>
+                <Link href="/whoiswho">Who is Who</Link>
               </li>
             </ul>
           </div>
@@ -145,25 +146,25 @@ const Footer = () => {
             </h5>
             <ul className="space-y-2">
               <li>
-                <a href="sisterconcerns.html">Sister Concerns</a>
+                <Link href="/sisterconcerns">Sister Concerns</Link>
               </li>
               <li>
-                <a href="vision.html">Vision</a>
+                <Link href="/vision">Vision</Link>
               </li>
               <li>
-                <a href="mission.html">Mission</a>
+                <Link href="/mission">Mission</Link>
               </li>
               <li>
-                <a href="companypolicy.html">Company Policy</a>
+                <Link href="/companypolicy">Company Policy</Link>
               </li>
               <li>
-                <a href="qualitypolicy.html">Quality Policy</a>
+                <Link href="/qualitypolicy">Quality Policy</Link>
               </li>
               <li>
-                <a href="hsepolicy.html">HSE Policy</a>
+                <Link href="/hsepolicy">HSE Policy</Link>
               </li>
               <li>
-                <a href="organizationchart.html">Organization Chart</a>
+                <Link href="/organizationchart">Organization Chart</Link>
               </li>
             </ul>
           </div>

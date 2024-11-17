@@ -8,11 +8,19 @@ import OurPolicy from "@/components/homepage/OurPolicy";
 import SupportSection from "@/components/homepage/SupportSection";
 import Navbar from "@/components/Navbar";
 import { Inter } from "next/font/google";
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+    <Head>
+        <title>GBL - Glow Batel Limited</title>
+        <meta
+          name="description"
+          content="Meet the administration team of GBL, an GBL vendor code registration holding company."
+        />
+      </Head>
       <Navbar />
 
       <HeroSlider />

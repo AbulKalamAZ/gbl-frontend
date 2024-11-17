@@ -51,6 +51,7 @@ module.exports = {
         "keyfact-img": "url('/key-fact.jpg')",
         "machine": "url('/machine.png')",
         "slider-one": "url('/slider/slider-img-1.jpg')",
+        "getintouch-bg": "url('/getintouch-bg.jpg')",
       },
     },
   },

@@ -13,7 +13,9 @@ export default function InnerPageLayout({ title, children }) {
       >
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 flex justify-start items-end p-16">
           <div className="container mx-auto">
-            <h1 className="text-5xl font-bold">{title}</h1>
+            <h1 className="text-center md:text-left text-3xl md:text-4xl lg:text-5xl font-bold">
+              {title}
+            </h1>
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import AdminCard from "@/components/AdminCard";
+import PhoneIcon from "@/components/icons/PhoneIcon";
 import SectionHeader from "@/components/SectionHeader";
 import InnerPageLayout from "@/layouts/InnerPageLayout";
 import Head from "next/head";
 
 export default function AdministrationPage() {
-  // Dummy data for personnel and contact information
   const personnelData = [
     { id: 1, title: "Government Relation Officer", imageSrc: "/admin/1.jpg" },
     { id: 2, title: "Public Relations Officer", imageSrc: "/admin/2.jpg" },
@@ -60,7 +60,10 @@ export default function AdministrationPage() {
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <h4 className="text-lg font-bold">Abdul Samad Cheriyam Parambil</h4>
             <p className="text-primary">Administration and Marketing Manager</p>
-            <p className="text-gray-800 mt-2">📞 +966 549 086 882</p>
+            <p className="text-gray-800 flex justify-center items-center gap-1 mt-2">
+              <PhoneIcon width={20} />
+              <span>+966 549 086 882</span>
+            </p>
             <p className="text-gray-800">
               ✉️{" "}
               <a
